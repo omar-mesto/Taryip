@@ -1,11 +1,12 @@
 import { createVuetify } from 'vuetify'
-import * as components from 'vuetify/components'
-import * as directives from 'vuetify/directives'
+import { VMain, VOtpInput } from 'vuetify/components'
 
 export default defineNuxtPlugin(nuxtApp => {
   const vuetify = createVuetify({
-    components,
-    directives,
+    components:{
+      VOtpInput,
+      VMain
+    }
   })
 
   nuxtApp.vueApp.use(vuetify)

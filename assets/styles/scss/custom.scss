@@ -14,26 +14,19 @@
   src: url("../font/ar/Tajawal-Light.ttf");
   src: url("../font/ar/Tajawal-Medium.ttf");
   src: url("../font/ar/Tajawal-Regular.ttf");
+  
   unicode-range: U+0600-06FF;
-  // unicode-range: U+00-FF, U+980-9FF;
-  // U+0600-06FF
-  // unicode-range: U+0020-007F; English
   
 }
 
 @font-face {
   src: url("../font/en/Roboto-Black.ttf");
-  // src: url("../font/en/Roboto-BlackItalic.ttf");
   src: url("../font/en/Roboto-Bold.ttf");
-  // src: url("../font/en/Roboto-BoldItalic.ttf");
-  // src: url("../font/en/Roboto-Italic.ttf");
   src: url("../font/en/Roboto-Light.ttf");
-  // src: url("../font/en/Roboto-LightItalic.ttf");
   src: url("../font/en/Roboto-Medium.ttf");
   src: url("../font/en/Roboto-MediumItalic.ttf");
   src: url("../font/en/Roboto-Regular.ttf");
-  // src: url("../font/en/Roboto-Thin.ttf");
-  // src: url("../font/en/Roboto-ThinItalic.ttf");
+  
   font-family: Roboto;
   unicode-range: U+0020-007F;
 }
@@ -70,8 +63,12 @@ ul {
   padding: 0;
   margin-bottom: 0;
 }
-
-
+.text-primary{
+  color: $primary !important;
+}
+.bg-primary{
+  background-color: $primary !important;
+}
 .bg-black {
   background: $black;
 }

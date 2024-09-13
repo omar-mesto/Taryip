@@ -1,41 +1,53 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  css: [
-    'vuetify/lib/styles/main.sass',
-    '@mdi/font/css/materialdesignicons.min.css',
-    "@/assets/styles/scss/custom.scss"
+  devtools: { enabled: true },
+  css: [  
+    'vuetify/lib/styles/main.sass',  
+    '@mdi/font/css/materialdesignicons.min.css',  
+    "@/assets/styles/scss/custom.scss"  
   ],
-  build: {
-    transpile: ['vuetify'],
-  },
-  vite: {
-    
-    define: {
-      'process.env.DEBUG': false,
-    },
-    css: {
-      preprocessorOptions: {
-        scss: {
-          additionalData: '@use "@/assets/styles/scss/theme/_variables.scss" as *;'
-        }
-      }
-    }
 
+  build: {  
+    transpile: ['vuetify'],  
   },
-  modules: [
-  ],
+
+  vite: {  
+    vue: {  
+      template: {  
+        transformAssetUrls: {  
+          // Define how to transform asset URLs for different tags  
+          img: 'src',  
+          image: 'xlink:href',  
+          // Add more mappings as necessary  
+        },  
+      },  
+    },  
+    define: {  
+      'process.env.DEBUG': false,  
+    },  
+    css: {  
+      preprocessorOptions: {  
+        scss: {  
+          additionalData: '@use "@/assets/styles/scss/theme/_variables.scss" as *;'  
+        }  
+      }  
+    }  
+  },
+
+  modules: ['vuetify-nuxt-module'],
+
   app: {  
     head: {  
       link: [  
         { rel: 'manifest', href: '/manifest.json' }  
       ]  
     }  
-  }, 
+  },
+
   pwa: {  
     manifest: {  
       name: 'Taryiq',  
       short_name: 'Taryiq',  
-      lang: 'en',  
+      // lang: 'en',  
       theme_color: '#ffffff',  
       background_color: '#ffffff',  
       display: 'standalone',  
@@ -67,5 +79,7 @@ export default defineNuxtConfig({
         }  
       ]  
     }  
-  }  
-})
+  },
+
+  compatibilityDate: '2024-09-12'
+});
