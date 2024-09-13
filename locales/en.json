@@ -1,5 +1,12 @@
 {
     "Email Verification":"Email Verification",
     "Enter the code we just sent to your Email":"Enter the code we just sent to your Email",
-    "Verify":"Verify"
+    "Verify":"Verify",
+    "Login":"Login",
+    "Enter Your Email:":"Enter Your Email:",
+    "Submit":"Submit",
+    "E-mail":"E-mail",
+    "Must be a valid email.":"Must be a valid email.",
+    "You Dont Have Accout ":"You Dont Have Accout ",
+    "Sign Up":"Sign Up"
 }

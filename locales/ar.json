@@ -1,5 +1,12 @@
 {
   "Email Verification":"التحقق من البريد الإلكتروني",
   "Enter the code we just sent to your Email":"أدخل الرمز الذي أرسلناه للتو إلى بريدك الإلكتروني",
-  "Verify":"التحقق"
+  "Verify":"التحقق",
+  "Login":"تسجيل الدخول",
+  "Enter Your Email:":"أدخل البريد الإلكتروني الخاص بك",
+  "Submit":"ارسال",
+  "E-mail":"بريدك الإلكتروني",
+  "Must be a valid email.":"يجب أن يكون بريد إلكتروني صالح",
+  "You Dont Have Accout ":"ليس لديك حساب",
+  "Sign Up":"أنشئ حساب"
 }

@@ -1,6 +1,6 @@
 <template>
     <div>
-      <AuthUserEmail/>
+        <AuthLogIn/>
     </div>
 </template>
 
