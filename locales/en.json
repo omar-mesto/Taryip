@@ -8,5 +8,15 @@
     "E-mail":"E-mail",
     "Must be a valid email.":"Must be a valid email.",
     "You Dont Have Accout ":"You Dont Have Accout ",
-    "Sign Up":"Sign Up"
+    "Sign Up":"Sign Up",
+    "First Name":"First Name :",
+    "Last Name":"Last Name :",
+    "Phone Number":"Phone Number :",
+    "password":"password :",
+    "Confirm Password":"Confirm Password :",
+    "Image":"Image :",
+    "Gender":"Gender :",
+    "male":"male :",
+    "female":"female :",
+    "submit":"Submit"
 }

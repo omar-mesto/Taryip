@@ -8,5 +8,15 @@
   "E-mail":"بريدك الإلكتروني",
   "Must be a valid email.":"يجب أن يكون بريد إلكتروني صالح",
   "You Dont Have Accout ":"ليس لديك حساب",
-  "Sign Up":"أنشئ حساب"
+  "Sign Up":"أنشئ حساب",
+  "First Name":"الاسم الأول",
+  "Last Name":"اسم العائلة",
+  "Phone Number":"رقم الهاتف",
+  "password":"كلمة المرور",
+  "Confirm Password":"تأكيد كلمة المرور",
+  "Image":"الصورة",
+  "Gender":"الجنس",
+  "male":"ذكر",
+  "female":"انثى",
+  "submit":"ارسال"
 }
