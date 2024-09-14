@@ -12,11 +12,13 @@
     "First Name":"First Name :",
     "Last Name":"Last Name :",
     "Phone Number":"Phone Number :",
-    "password":"password :",
+    "password":"Password :",
     "Confirm Password":"Confirm Password :",
     "Image":"Image :",
     "Gender":"Gender :",
     "male":"male :",
     "female":"female :",
-    "submit":"Submit"
+    "submit":"Submit",
+    "User Name":"User Name :",
+    "Admin Login":"Admin Login"
 }
