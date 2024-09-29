@@ -1,6 +1,6 @@
 <template>
     <div>
-      <AuthUserEmail/>
+      <AuthUserPhoneNumber/>
     </div>
 </template>
 

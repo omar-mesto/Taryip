@@ -2,7 +2,7 @@
     <div>
         <v-app class="bg-grey-lighten-4" v-dir>
           <lang/>
-          <v-locale-provider >
+          <v-locale-provider :rtl="useLang().value === 'ar'">
             <v-main class="d-flex align-center">
                 <v-container>
                     <v-sheet
@@ -13,13 +13,14 @@
                         width="100%"
                         border
                         >
-                        <h3 class="text-lg-h4  mb-5 text-blue-darken-2 text-center font-weight-bold">{{ $t('Email Verification') }}</h3>
+                        <h3 class="text-lg-h4  mb-5 text-blue-darken-2 text-center font-weight-bold">{{ $t('Phone Verification') }}</h3>
                     
                         <div class="text-body-2 font-weight-light" v-dir>
-                            {{ $t('Enter the code we just sent to your Email') }} <span class="font-weight-black text-black">omsito014@gmail.com</span>
+                            {{ $t('Enter the code we just sent to your Phone Number') }} <span class="font-weight-black text-black">0962004602</span>
                         </div>
                     
                         <v-otp-input
+                            v-dir
                             v-model="otp"
                             length="4"
                             placeholder="0"
